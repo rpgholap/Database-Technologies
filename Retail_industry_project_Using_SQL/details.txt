@@ -1,0 +1,52 @@
+🛒 RETAIL INDUSTRY PROJECT USING SQL
+
+📌 Project Overview
+This project focuses on the practical application of SQL in designing and managing a retail database system. It covers database creation, data insertion, and analytical querying to simulate a simplified retail environment involving products, customers, and orders. The project aims to derive meaningful business insights through structured and well-organized data analysis.
+
+📂 Project Structure
+
+📄 Retail_Industry_project.sql
+This SQL script is responsible for creating the database schema and defining all required tables for the retail system.
+
+📄 Queries_on_retail_industry_project.sql
+This script contains commands to insert sample data into the database and execute various business-oriented analytical queries.
+
+🎯 Project Objectives
+
+✔ To design and implement a normalized relational database for a retail management system
+✔ To populate the database with realistic and relevant sample data
+✔ To perform analytical queries in order to analyze:
+
+Sales trends over time
+
+Customer purchasing behavior
+
+Most popular and high-performing products
+
+Category-wise sales performance
+
+🧱 Database Schema
+
+🛍 Products Table
+Stores detailed product information such as Product ID, Product Name, Category, Price, and Available Stock.
+
+👤 Customers Table
+Maintains customer-related information including Customer ID, Name, Email, Phone Number, and Address.
+
+🧾 Orders Table
+Records order transactions with attributes such as Order ID, Customer ID, Order Date, and Total Order Amount.
+
+📦 OrderDetails Table
+Stores information about individual products within each order, including Quantity and Cost.
+
+🔗 All tables are linked using foreign key constraints to maintain referential integrity and ensure consistency across the database.
+
+▶ How to Run the Project
+
+🔹 Step 1: Create a new database named retail_industry.
+    CREATE DATABASE retail_industry;
+    USE retail_industry;
+🔹 Step 2: Execute the Retail_Industry_project.sql file to create the database schema.
+🔹 Step 3: Run the Queries_on_retail_industry_project.sql file to insert sample data and perform analytical queries.
+
+✨ This project provides hands-on experience in retail database design and demonstrates how SQL can be used effectively for real-world data analysis and decision-making.
